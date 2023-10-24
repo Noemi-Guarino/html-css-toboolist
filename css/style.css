@@ -3,6 +3,7 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: "roboto", sans-serif;
+font-size:20px;
 }
 
 header{
@@ -78,4 +79,43 @@ height: 25px;
 text-align: center;
 line-height: 25px;
 margin-right:10px;
+}
+
+.category{
+color: white;
+padding: 7px;
+text-align: center;
+font-size: 10px;
+border-radius:15px;
+display: inline-block;
+}
+
+.blue{
+background-color: #47ADF1;
+border: 2px solid #47ADF1;
+}
+
+.purple{
+background-color: #9C72E4;
+border: 2px solid #9C72E4;
+}
+
+.orange{
+background-color: orange;
+border: 2px solid orange;
+}
+
+.aquamarine{
+background-color: #64C0A9;
+border: 2px solid #64C0A9;    
+}
+
+.pink{
+background-color: #D863A1;
+border: 2px solid #D863A1;    
+}
+
+.lime{
+background-color: lime;
+border: 2px solid lime;    
 }
