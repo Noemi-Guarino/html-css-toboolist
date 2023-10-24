@@ -1,0 +1,81 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "roboto", sans-serif;
+}
+
+header{
+background-color: white;
+margin: 10px;
+padding: 10px 10px;
+}
+
+header img, header h1{
+vertical-align: middle;
+}
+
+h1{
+display: inline-block;
+}
+
+body{
+background-color: #E5E5E5;
+}
+
+.container1 , .container2 {
+width: 75%;
+margin: 0 auto;
+margin-bottom: 4px;
+background-color: white;
+padding: 8px;
+}
+
+.buttontask{
+background-color: #47ADF1;
+border: 2px solid #47ADF1;
+color: white;
+padding: 6px 6px 6px 6px;
+margin: 5px;
+text-align: center;
+font-size: 16px;
+border-radius:6px;
+}
+
+.buttonselection {
+background-color: white;
+color: lightgrey;
+border: 2px solid lightgrey;
+font-size: 16px;
+border-radius:6px;
+padding: 6px 6px 6px 6px;
+}
+
+
+ul li{
+list-style: none;
+}
+
+.check {
+border-radius: 50%;
+border: 1px solid green;
+color: green;
+display: inline-block;
+width: 25px;
+height: 25px;
+text-align: center;
+line-height: 25px;
+margin-right:10px;
+}
+
+.cross {
+border-radius: 50%;
+border: 1px solid red;
+color: red;
+display: inline-block;
+width: 25px;
+height: 25px;
+text-align: center;
+line-height: 25px;
+margin-right:10px;
+}
